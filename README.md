@@ -13,11 +13,27 @@ Given an initial sketch of what we want the device to look like, it was deemed a
 
 Week 2 Feb 17 - 21 |
 ===================================================================
-This week we 
+This week we will be reviewing our project proposal with Instructors and TAs  
+Overall, the project proposal review went well  
+We did not have to make any changes other than adding a references/citations section for future resources/research that we will be doing  
+We will also be starting our pcb design and making a list of all the parts that we need  
+
 
 Week 3 Feb 24 - 28 |
 ================================================
-This week we will be reviewing 
+This week we will be creating our initial PCB design and attending the PCB review session  
+This is the initial schematic we created with each part that we intend on using  
+![image](https://github.com/user-attachments/assets/4bf3857f-e0a9-475c-8549-b0684e168363)  
+This is the initial pcb design we created with each part that we intend on using  
+![image](https://github.com/user-attachments/assets/ac67e749-906b-42ea-b384-ae0386b26f5c)  
+The PCB review session went great and no changes were made to our inital PCB design  
+Some challenges that we had while building the schematic include:  
+No native schematic block for most of our parts  
+Had to import parts from many different websites  
+For the parts with no schematics online, we had to find parts with similar layouts  
+same pinholes, same size, etc  
+
+
 
 Week 4 Mar 3 - 7 |
 ========================================================================
