@@ -17,6 +17,8 @@ This week we will be reviewing our project proposal with Instructors and TAs
 Overall, the project proposal review went well  
 We did not have to make any changes other than adding a references/citations section for future resources/research that we will be doing  
 We will also be starting our pcb design and making a list of all the parts that we need  
+![image](https://github.com/user-attachments/assets/291930f4-accf-4d20-933c-cd622ed13f3c)
+
 
 
 Week 3 Feb 24 - 28 |
