@@ -51,13 +51,13 @@ This week we are finalizing up our device for demo on Tuesday
 
 Week 13 May 5 - 9 | FINAL WEEK WRAPPING UP
 ==================================================================================
-In this week, we made finishing touches to our Final Presentation Slides.
-Successfully presented our project to Professor, TAs, and peers.
-Finishing up our Final Paper
-Turned in our Final Paper
-Checking out Lab with TA Maanas
-Attending the Awards Ceremony
-
+In this week, we made finishing touches to our Final Presentation Slides.  
+Successfully presented our project to Professor, TAs, and peers.  
+Finishing up our Final Paper  
+Turned in our Final Paper  
+Checking out Lab with TA Maanas  
+Attending the Awards Ceremony  
+  
 Final Entry before turning in LAB NOTEBOOK!!! WOOHOO!!!
 
 
