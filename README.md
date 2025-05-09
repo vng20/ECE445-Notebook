@@ -17,7 +17,7 @@ This week we will be reviewing our project proposal with Instructors and TAs
 Overall, the project proposal review went well  
 We did not have to make any changes other than adding a references/citations section for future resources/research that we will be doing  
 We will also be starting our pcb design and making a list of all the parts that we need  
-![image](https://github.com/user-attachments/assets/291930f4-accf-4d20-933c-cd622ed13f3c)
+![image](https://github.com/user-attachments/assets/291930f4-accf-4d20-933c-cd622ed13f3c)  
 
 
 
@@ -75,13 +75,13 @@ This week there is nothing due, continuation of research and building software
 After getting a working ESP we were able to start programming onto the board  
 I was in charge of handling all the backend algorithm for EAR(Eye Aspect Ratio) MAR(Mouth Aspect Ratio) and Fatigue Score  
 After some research I decided to use the Dlib library for handling facial landmarks  
-For my initial testing, we decided to run the program locally on my laptop camera due to the fact that our OV2640 camera was not set up with the ESP yet
+For my initial testing, we decided to run the program locally on my laptop camera due to the fact that our OV2640 camera was not set up with the ESP yet  
 Everything was working fine and there was no hiccups  
 The basic logic of this algorithm is that the facial landmarks such as different points in the eye are marked by the Dlib dataset  
 The algorithm that we are using implements Elucidean Distances and calculates when the landmarks in the eyes are at a certain distance  
 So whenever the eyes are closed, the landmarks that track the eyes will be close together in distance  
-Once a certain calculated distance is met, the eye will be given a "closed" state also known as a blink
-The mouth aspect ratio works the same way, but instead once a certain calculated distance is met, the mouth is in a "open" state or a yawn
+Once a certain calculated distance is met, the eye will be given a "closed" state also known as a blink  
+The mouth aspect ratio works the same way, but instead once a certain calculated distance is met, the mouth is in a "open" state or a yawn  
 ![image](https://github.com/user-attachments/assets/4aee8be1-5f81-43e9-98e8-6d30ed247e6c)  
 ![image](https://github.com/user-attachments/assets/351cb76f-1329-4315-9412-6c12c5967923)  
 ![image](https://github.com/user-attachments/assets/eaefc7f3-26f3-4539-ab43-4dd61ccf1fcd)  
@@ -106,7 +106,7 @@ We were not able to insert the pins of the ESP through the pinholes on the PCB
 We made note of this for our final PCB order  
 
 
-Week 9 Apr 7 - 11 |
+Week 9 Apr 7 - 11 | Final PCB order
 ==================================================================================
 This week we will be submitting our final PCB order  
 ![image](https://github.com/user-attachments/assets/7b4684db-385d-49df-b066-2ac92760e329)  
@@ -118,7 +118,7 @@ Overall, the design reflects a more production-ready and functional board that i
 
 
 
-Week 10 Apr 14 - 18 |
+Week 10 Apr 14 - 18 | Continued Debugging and Research
 ==================================================================================
 This week we will be turning in the Team Contract Assignment
 
@@ -128,13 +128,17 @@ This week we will be conducting the mock demo
 Currently we have finished the EAR Algorithm and connecting all the endpoints of our system  
 Things left to do are:  
 Fatigue Score System  
-Soldering PCB after fully programmed and working device on breadboard    
+Soldering PCB after fully programmed and working device on breadboard  
 
 
 Week 12 Apr 28 - May 2 | DEMO WEEK
 ==================================================================================
 This week we are finalizing up our device for demo on Tuesday  
-Some issues that we ran into were:  
+Some things that we discovered about our device was the importance of our power supply
+![image](https://github.com/user-attachments/assets/f54bf199-a8d3-4513-b8db-b9ac9619b83d)  
+
+The demo was a complete success with all the subsystems of the device fully working  
+All of our requirements were fullfilled  
 
 
 
@@ -145,7 +149,6 @@ Successfully presented our project to Professor, TAs, and peers.
 Finishing up our Final Paper  
 Turned in our Final Paper  
 Checking out Lab with TA Maanas  
-Attending the Awards Ceremony  
   
 Final Entry before turning in LAB NOTEBOOK!!! WOOHOO!!!
 
