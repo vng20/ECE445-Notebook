@@ -150,10 +150,18 @@ I also hand soldered the rest of the components
 Some design changes had to be made in terms of soldering  
 Because the encasing that the ECE Machine Shop gave us had the lid sitting flush to the ESP camera module, I had to solder wires into the PCB instead of incorporating the molex pieces we were originally going to use because there would not be enough clearace to close the lid of our device  
 ![image](https://github.com/user-attachments/assets/3c6652de-fec3-4391-b659-7a46aef60ddf)  
-
 Machine Shop Initial Encasing  
 ![image](https://github.com/user-attachments/assets/20a6ad80-87ac-4f23-8f9e-d5b2a8b1400d)  
 ![image](https://github.com/user-attachments/assets/86baf02e-76f8-4f7a-acf4-ca6c971765f6)  
+
+Fatigue Score System:  
+For our fatigue score system, the basic logic behind this is that each element such as blink, long blink, and yawns are weighted differently  
+We will assign a very high score for yawns, medium socre for long blink, and low score for blinks  
+After a period of 30 seconds all of the users movements are detected and added up into a fatigue score  
+If the fatigue score reaches a certain threshold, our alert system would activate  
+In this week, we fully implemented the fatigue score system using our EAR and MAR algorithms from previous weeks  
+![image](https://github.com/user-attachments/assets/a13b5cb8-54ff-45ba-98c6-66aca5d9170c)  
+
 
 Final UI  
 ![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)  
