@@ -77,13 +77,35 @@ I was in charge of handling all the backend algorithm for EAR(Eye Aspect Ratio) 
 After some research I decided to use the Dlib library for handling facial landmarks  
 For my initial testing, we decided to run the program locally on my laptop camera due to the fact that our OV2640 camera was not set up with the ESP yet
 Everything was working fine and there was no hiccups  
+The basic logic of this algorithm is that the facial landmarks such as different points in the eye are marked by the Dlib dataset  
+The algorithm that we are using implements Elucidean Distances and calculates when the landmarks in the eyes are at a certain distance  
+So whenever the eyes are closed, the landmarks that track the eyes will be close together in distance  
+Once a certain calculated distance is met, the eye will be given a "closed" state also known as a blink
+The mouth aspect ratio works the same way, but instead once a certain calculated distance is met, the mouth is in a "open" state or a yawn
+![image](https://github.com/user-attachments/assets/4aee8be1-5f81-43e9-98e8-6d30ed247e6c)  
 ![image](https://github.com/user-attachments/assets/351cb76f-1329-4315-9412-6c12c5967923)  
 ![image](https://github.com/user-attachments/assets/eaefc7f3-26f3-4539-ab43-4dd61ccf1fcd)  
 
 
-Week 8 Mar 31 - Apr 4 |
+Week 8 Mar 31 - Apr 4 | 3rd Round PCB order
 ==================================================================================
-This week we will be submitting our 3rd round PCB order
+This week we will be submitting our 3rd round PCB order  
+After we submitted the PCB order, we realized that the usbc port had the wrong orientation  
+This was a setback for us in terms of testing our PCB  
+We were ultimately able to test all of our components seperately on the breadboard  
+One major setback we realized from testing was the fact that our OV2640 camera module was actually incompatible with the ESP  
+This OV2640 camera module was ultimately unusable in our system due to missing documentation and incomplete pin functionality  
+Notably, it lacks an exposed XCLK (external clock) pin, which is required to drive the camera sensor with a 10–20 MHz clock signal from the ESP32  
+![image](https://github.com/user-attachments/assets/65310033-fdbd-4324-bf12-bd80f2ac812c)  
+As a result, we replaced it with a more standardized ESP32-CAM board that included proper XCLK routing and a proven working configuration  
+Due to the fact that we will be using a completely different ESP32, we must also make changes to our PCB design  
+![image](https://github.com/user-attachments/assets/093395bb-0ffb-4bb9-a4ba-db46021874c1)  
+This schematic reflects the new PCB design we implemented  
+Also note that the PCB design from the 3rd Round also had an ESP schematic block that had the incorrect size  
+We were not able to insert the pins of the ESP through the pinholes on the PCB  
+We made note of this for our final PCB order  
+
+
 
 Week 9 Apr 7 - 11 |
 ==================================================================================
