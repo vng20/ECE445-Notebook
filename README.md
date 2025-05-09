@@ -172,6 +172,10 @@ Not only that, but there is an interactive plot that shows what your fatigue sco
 Final UI  
 ![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)  
 
+After we got every subsystem working, We talked to Gregg at the Machine Shop to make the final cutouts for our device  
+Some changes that were made in the process were:  
+The orientation of the pcb in the device  
+Additional cutouts needed for our buzzer, led, and button  
 
 Week 12 Apr 28 - May 2 | DEMO WEEK
 ==================================================================================
