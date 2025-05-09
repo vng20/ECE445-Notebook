@@ -11,7 +11,7 @@ We have talked to Gregg of the Machine Shop for advice on our project
 Given an initial sketch of what we want the device to look like, it was deemed as viable  
 
 
-Week 2 Feb 17 - 21 |
+Week 2 Feb 17 - 21 | Project Proposal Review + Inital Design Stage
 ===================================================================
 This week we will be reviewing our project proposal with Instructors and TAs  
 Overall, the project proposal review went well  
@@ -21,7 +21,7 @@ We will also be starting our pcb design and making a list of all the parts that 
 
 
 
-Week 3 Feb 24 - 28 |
+Week 3 Feb 24 - 28 | Inital Design Completed
 ================================================
 This week we will be creating our initial PCB design and attending the PCB review session  
 This is the initial schematic we created with each part that we intend on using  
@@ -37,13 +37,27 @@ same pinholes, same size, etc
 
 
 
-Week 4 Mar 3 - 7 |
+Week 4 Mar 3 - 7 | Teamwork Evaluation + Design Document + Inital Subsystem Implementation
 ========================================================================
-This week our Teamwork Evaluation and Design Document are due
+This week our first round of PCB orders, Teamwork Evaluation, and Design Document are due  
+We will not be submitting a PCB order for this round due to the fact that we decided to make some small changes to the PCB  
+So far, teamwork has been great and Teamwork Evaluation was submitted successfully  
+Our Design Document is due this week, and we have documented our entire design process so far with plans for the future  
+We have been continuing research for each subsystem in our device  
+So far our BAC alcohol sensor subsystem has been set up on the breadboard for breadboard demos next week  
+
 
 Week 5 Mar 10 - 14 |
 ===================================================================
-This week we will be having our breadboard demo and trying to submit a PCB order
+This week we will be having our breadboard demo and submitting 2nd PCB order  
+Breadboard demo went well, and we successfully demonstrated a working MQ3 sensor and BAC conversion through an arduino  
+We have been continually testing our parts up until this point and we discovered that the ESP32 that we borrowed from the ECE Lab Lockers is actually broken  
+After setting up the ESP development environment and ensuring correct port connects, we were unable to flash a naive program onto the ESP  
+This actually set us back quite some time because we did not realize an ESP from the ECE Lab would be defective  
+![image](https://github.com/user-attachments/assets/6e4219d0-7ec4-429f-bf84-c30ef08136ac)
+![image](https://github.com/user-attachments/assets/9df8a3fd-18e2-48c7-9b1f-bf75bf71ef8f)
+However, after discovering that the ESP was broken, we immediately went to the Supply Center and got another ESP32  
+
 
 Week 6 Mar 17 - 21 | Spring Break
 =================================================
