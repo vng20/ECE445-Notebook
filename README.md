@@ -161,6 +161,8 @@ After a period of 30 seconds all of the users movements are detected and added u
 If the fatigue score reaches a certain threshold, our alert system would activate  
 In this week, we fully implemented the fatigue score system using our EAR and MAR algorithms from previous weeks  
 ![image](https://github.com/user-attachments/assets/a13b5cb8-54ff-45ba-98c6-66aca5d9170c)  
+![image](https://github.com/user-attachments/assets/20dcc13a-c990-40db-9887-66f6b27f99b5)  
+
 
 
 Final UI  
@@ -174,14 +176,15 @@ Final encasing:
 ![image](https://github.com/user-attachments/assets/532a5e15-cc7f-4737-bcb4-bb6c8cc21f0b)
 
 Some things that we discovered about our device was the importance of our power supply  
+We realized that the frames would be more consistent as the power supply remained stable  
+Therefore we went out and got a 5V 2.5A power brick specifically for our device  
 ![image](https://github.com/user-attachments/assets/f54bf199-a8d3-4513-b8db-b9ac9619b83d)  
 ![image](https://github.com/user-attachments/assets/deccf335-36c2-45b9-8ae2-a4c3b4ab13c5)  
 
 The demo was a complete success with all the subsystems of the device fully working  
 All of our requirements were fullfilled  
 Post Demo Success Below  
-![image](https://github.com/user-attachments/assets/744ef1bf-168d-493b-a123-907fd17ba971)
-
+![image](https://github.com/user-attachments/assets/744ef1bf-168d-493b-a123-907fd17ba971)  
 
 
 
