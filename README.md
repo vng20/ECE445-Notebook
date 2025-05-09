@@ -52,7 +52,7 @@ The live readings confirmed stable and responsive sensor output, validating our 
 
 
 
-Week 5 Mar 10 - 14 |
+Week 5 Mar 10 - 14 | Breadboard Demos
 ===================================================================
 This week we will be having our breadboard demo and submitting 2nd PCB order  
 Breadboard demo went well, and we successfully demonstrated a working MQ3 sensor and BAC conversion through an arduino  
@@ -62,15 +62,24 @@ This actually set us back quite some time because we did not realize an ESP from
 ![image](https://github.com/user-attachments/assets/6e4219d0-7ec4-429f-bf84-c30ef08136ac)  
 ![image](https://github.com/user-attachments/assets/9df8a3fd-18e2-48c7-9b1f-bf75bf71ef8f)  
 However, after discovering that the ESP was broken, we immediately went to the Supply Center and got another ESP32  
+We went ahead and met up with Gregg at the ECE Machine Shop again to confirm the timeline of our project  
 
 
 Week 6 Mar 17 - 21 | Spring Break
 =================================================
 BREAK
 
-Week 7 Mar 24 - 28 |
+Week 7 Mar 24 - 28 | Research and Building Software
 ==================================================================================
-This week there is nothing due, continuation of research and building software
+This week there is nothing due, continuation of research and building software  
+After getting a working ESP we were able to start programming onto the board  
+I was in charge of handling all the backend algorithm for EAR(Eye Aspect Ratio) MAR(Mouth Aspect Ratio) and Fatigue Score  
+After some research I decided to use the Dlib library for handling facial landmarks  
+For my initial testing, we decided to run the program locally on my laptop camera due to the fact that our OV2640 camera was not set up with the ESP yet
+Everything was working fine and there was no hiccups  
+![image](https://github.com/user-attachments/assets/351cb76f-1329-4315-9412-6c12c5967923)  
+![image](https://github.com/user-attachments/assets/eaefc7f3-26f3-4539-ab43-4dd61ccf1fcd)  
+
 
 Week 8 Mar 31 - Apr 4 |
 ==================================================================================
