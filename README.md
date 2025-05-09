@@ -45,6 +45,11 @@ So far, teamwork has been great and Teamwork Evaluation was submitted successful
 Our Design Document is due this week, and we have documented our entire design process so far with plans for the future  
 We have been continuing research for each subsystem in our device  
 So far our BAC alcohol sensor subsystem has been set up on the breadboard for breadboard demos next week  
+![image](https://github.com/user-attachments/assets/20775189-d6e7-4bfd-9275-6ccf1831d15e)  
+By configuring GPIO 34 as an analog input and adjusting the resolution to 12 bits, we were able to read and convert raw ADC values into voltage  
+The live readings confirmed stable and responsive sensor output, validating our connection and code setup  
+
+
 
 
 Week 5 Mar 10 - 14 |
@@ -54,8 +59,8 @@ Breadboard demo went well, and we successfully demonstrated a working MQ3 sensor
 We have been continually testing our parts up until this point and we discovered that the ESP32 that we borrowed from the ECE Lab Lockers is actually broken  
 After setting up the ESP development environment and ensuring correct port connects, we were unable to flash a naive program onto the ESP  
 This actually set us back quite some time because we did not realize an ESP from the ECE Lab would be defective  
-![image](https://github.com/user-attachments/assets/6e4219d0-7ec4-429f-bf84-c30ef08136ac)
-![image](https://github.com/user-attachments/assets/9df8a3fd-18e2-48c7-9b1f-bf75bf71ef8f)
+![image](https://github.com/user-attachments/assets/6e4219d0-7ec4-429f-bf84-c30ef08136ac)  
+![image](https://github.com/user-attachments/assets/9df8a3fd-18e2-48c7-9b1f-bf75bf71ef8f)  
 However, after discovering that the ESP was broken, we immediately went to the Supply Center and got another ESP32  
 
 
