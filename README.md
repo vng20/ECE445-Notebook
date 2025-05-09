@@ -122,7 +122,10 @@ Overall, the design reflects a more production-ready and functional board that i
 
 Week 10 Apr 14 - 18 | Continued Debugging and Research
 ==================================================================================
-This week we will be turning in the Team Contract Assignment
+This week we will be turning in the Team Contract Assignment  
+Making sure that all our parts work on a breadboard before we go ahead and solder everything on the pcb  
+![image](https://github.com/user-attachments/assets/b14ff046-936d-475b-a6b6-f727f1dc888e)
+
 
 Week 11 Apr 21 - 25 | MOCK DEMO
 ==================================================================================
