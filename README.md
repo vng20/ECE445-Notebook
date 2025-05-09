@@ -18,6 +18,8 @@ Overall, the project proposal review went well
 We did not have to make any changes other than adding a references/citations section for future resources/research that we will be doing  
 We will also be starting our pcb design and making a list of all the parts that we need  
 ![image](https://github.com/user-attachments/assets/291930f4-accf-4d20-933c-cd622ed13f3c)  
+![image](https://github.com/user-attachments/assets/63a72137-4478-4d55-8a79-8cbe6c24d0b1)
+
 
 
 
@@ -129,6 +131,7 @@ Currently we have finished the EAR Algorithm and connecting all the endpoints of
 Things left to do are:  
 Fatigue Score System  
 Soldering PCB after fully programmed and working device on breadboard  
+![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)
 
 
 Week 12 Apr 28 - May 2 | DEMO WEEK
@@ -136,6 +139,7 @@ Week 12 Apr 28 - May 2 | DEMO WEEK
 This week we are finalizing up our device for demo on Tuesday  
 Some things that we discovered about our device was the importance of our power supply
 ![image](https://github.com/user-attachments/assets/f54bf199-a8d3-4513-b8db-b9ac9619b83d)  
+![image](https://github.com/user-attachments/assets/deccf335-36c2-45b9-8ae2-a4c3b4ab13c5)  
 
 The demo was a complete success with all the subsystems of the device fully working  
 All of our requirements were fullfilled  
@@ -144,8 +148,8 @@ All of our requirements were fullfilled
 
 Week 13 May 5 - 9 | FINAL WEEK WRAPPING UP
 ==================================================================================
-In this week, we made finishing touches to our Final Presentation Slides.  
-Successfully presented our project to Professor, TAs, and peers.  
+In this week, we made finishing touches to our Final Presentation Slides  
+Successfully presented our project to Professor, TAs, and peers  
 Finishing up our Final Paper  
 Turned in our Final Paper  
 Checking out Lab with TA Maanas  
