@@ -106,10 +106,17 @@ We were not able to insert the pins of the ESP through the pinholes on the PCB
 We made note of this for our final PCB order  
 
 
-
 Week 9 Apr 7 - 11 |
 ==================================================================================
-This week we will be submitting our final PCB order
+This week we will be submitting our final PCB order  
+![image](https://github.com/user-attachments/assets/7b4684db-385d-49df-b066-2ac92760e329)  
+This is our revised PCB design, created after addressing the limitations of our initial prototype  
+In this version, we correctly positioned the micro-USB connector along the edge of the board to ensure full cable compatibility and structural alignment  
+The layout was reworked for improved functionality and cleaner trace routing to support components like the MQ-3 sensor, OLED display, buzzer, and LED indicator  
+This version also finalized mounting holes and better spacing to accommodate enclosure constraints and mechanical stability  
+Overall, the design reflects a more production-ready and functional board that integrates all project subsystems reliably  
+
+
 
 Week 10 Apr 14 - 18 |
 ==================================================================================
