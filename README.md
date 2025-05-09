@@ -130,19 +130,46 @@ This week we will be conducting the mock demo
 Currently we have finished the EAR Algorithm and connecting all the endpoints of our system  
 Things left to do are:  
 Fatigue Score System  
-Soldering PCB after fully programmed and working device on breadboard  
-![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)
+Soldering parts to PCB after fully programming and ensuring a working device on breadboard  
+
+
+![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)  
+Because we were not able to get the Camera working on our old PCB we are waiting for the arrival of our final PCB  
+We did our demo of the algorithhm on a local laptop camera  
+
+When importing the algorithm onto the raspberry pi, I ran into many issues  
+Because of the limited computational power of a pi, uploading the Dlib library would crash the pi  
+After hours of failed installation, I decided to modify the RAM usage locally in the pi while providing airflow so that the pi would not overheat  
+After 2 hours, the Dlib library was finally loaded onto the pi  
+![image](https://github.com/user-attachments/assets/d37e6f73-b264-4da4-a21b-12802827cb66)  
+
+
+Soldering  
+![image](https://github.com/user-attachments/assets/3c6652de-fec3-4391-b659-7a46aef60ddf)  
+
+Machine Shop Initial Encasing  
+![image](https://github.com/user-attachments/assets/20a6ad80-87ac-4f23-8f9e-d5b2a8b1400d)  
+![image](https://github.com/user-attachments/assets/86baf02e-76f8-4f7a-acf4-ca6c971765f6)  
+
+
+
 
 
 Week 12 Apr 28 - May 2 | DEMO WEEK
 ==================================================================================
 This week we are finalizing up our device for demo on Tuesday  
-Some things that we discovered about our device was the importance of our power supply
+Final encasing:  
+![image](https://github.com/user-attachments/assets/532a5e15-cc7f-4737-bcb4-bb6c8cc21f0b)
+
+Some things that we discovered about our device was the importance of our power supply  
 ![image](https://github.com/user-attachments/assets/f54bf199-a8d3-4513-b8db-b9ac9619b83d)  
 ![image](https://github.com/user-attachments/assets/deccf335-36c2-45b9-8ae2-a4c3b4ab13c5)  
 
 The demo was a complete success with all the subsystems of the device fully working  
 All of our requirements were fullfilled  
+Post Demo Success Below  
+![image](https://github.com/user-attachments/assets/744ef1bf-168d-493b-a123-907fd17ba971)
+
 
 
 
