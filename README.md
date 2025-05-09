@@ -132,10 +132,8 @@ Things left to do are:
 Fatigue Score System  
 Soldering parts to PCB after fully programming and ensuring a working device on breadboard  
 
-
-![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)  
 Because we were not able to get the Camera working on our old PCB we are waiting for the arrival of our final PCB  
-We did our demo of the algorithhm on a local laptop camera  
+We did our mock demo of the algorithhm on a local laptop camera  
 
 When importing the algorithm onto the raspberry pi, I ran into many issues  
 Because of the limited computational power of a pi, uploading the Dlib library would crash the pi  
@@ -144,15 +142,21 @@ After 2 hours, the Dlib library was finally loaded onto the pi
 ![image](https://github.com/user-attachments/assets/d37e6f73-b264-4da4-a21b-12802827cb66)  
 
 
-Soldering  
+Soldering:  
+After getting the PCB I was able to solder our parts onto the PCB  
+Some specific techniques I used included:  
+Stencil/Solder Paste and Heat Gun for the small parts such as the pins on the micro usb  
+I also hand soldered the rest of the components  
+Some design changes had to be made in terms of soldering  
+Because the encasing that the ECE Machine Shop gave us had the lid sitting flush to the ESP camera module, I had to solder wires into the PCB instead of incorporating the molex pieces we were originally going to use because there would not be enough clearace to close the lid of our device  
 ![image](https://github.com/user-attachments/assets/3c6652de-fec3-4391-b659-7a46aef60ddf)  
 
 Machine Shop Initial Encasing  
 ![image](https://github.com/user-attachments/assets/20a6ad80-87ac-4f23-8f9e-d5b2a8b1400d)  
 ![image](https://github.com/user-attachments/assets/86baf02e-76f8-4f7a-acf4-ca6c971765f6)  
 
-
-
+Final UI  
+![image](https://github.com/user-attachments/assets/4058caf4-8828-456c-a689-a7326bcbb3bc)  
 
 
 Week 12 Apr 28 - May 2 | DEMO WEEK
